@@ -1,0 +1,57 @@
+body{
+
+	background-image: url(https://st3.depositphotos.com/11233746/15398/i/1600/depositphotos_153986668-stock-photo-sportsman-sitting-at-gym-looking.jpg);
+
+}
+
+.conte{
+	background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	position: relative;
+	padding: 40px;
+	width: 300px;
+	align-items: center;
+	justify-content: center;
+	
+}
+.title{
+color: white;	
+}
+
+.bienvenido{
+	color: orange;
+	font-size: 30px
+}
+.registro{
+	color: black;
+	font-size: 25px;
+	padding: 5px;
+}
+.regresa{
+	color: orange;
+	font-size: 10px;
+	padding: 10px;
+	width: 350px;
+}
+
+.boton .submit{
+	 width: auto;
+	 padding: 10px;
+	 background: white;
+	 color: black;
+	 font-size: 12px;
+	 margin-bottom: 25px;
+	 border-top-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 border-bottom: 1px solid #a8a8a8;
+	 cursor: pointer;
+	 border-radius: 10%;
+	 box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+ }
+ .boton input:active,
+ .boton input:focus{
+	 outline: none;
+ }
